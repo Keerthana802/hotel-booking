@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <style>
+            h1
+            {
+                text-align: center;
+                cursor: default;
+            }
+            html
+            {
+                display:flex ;
+                width:100% ;
+                height: 100vh;
+                opacity: 0.95;
+                align-items: center;
+                justify-content: center;
+                background-image: url('https://cache.marriott.com/marriottassets/marriott/LASJW/lasjw-guestroom-0111-hor-clsc.jpg?interpolation=progressive-bilinear&');
+                background-size: cover;
+            }
+            .div
+            {
+                height: 70%;
+                width: 105%;
+                border-color: brown;
+                border-radius: 15px;
+                align-items: center;
+                border: 1px solid white;
+                background-color: rgba(240, 248, 255, 0.487);
+            }
+            label
+            {
+                margin-left: 15px;
+                font-size: 23px;
+                font-style: normal;
+            }
+            input[type="text"]
+            {
+                margin-left: 15px;
+                border-width: 0.15px;
+                font-size: 18px;
+                border-color: rgb(167, 250, 250);
+                background-color:white;
+                border-radius: 5px;
+                cursor: pointer;
+                height: 30px;
+                width: 375px;
+            }
+            input[type="email"]
+            {
+                margin-left: 15px;
+                border-width: 0.15px;
+                font-size: 18px;
+                cursor: pointer;
+                border-color: rgb(167, 250, 250);
+                background-color:white;
+                border-radius: 5px;
+                height: 30px;
+                width: 375px;
+            }
+            input[type="password"]
+            {
+                margin-left: 15px;
+                border-width: 0.15px;
+                font-size: 18px;
+                cursor: pointer;
+                border-color: rgb(167, 250, 250);
+                background-color:white;
+                border-radius: 5px;
+                height: 30px;
+                width: 375px;
+            }
+            .box{
+                width: 150px;
+                height: 26px;
+                color: rgb(71, 71, 223);
+                border-radius: 5px;
+                font-size: 15px;
+                cursor: pointer;
+                background-color: white;
+                margin-left: 15px;
+            }
+            .button{
+                height: 45px;
+                width:390px;
+                margin-left: 15px;
+                background-color: aquamarine;
+                color:white;
+                cursor: pointer;
+                border: none;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            p
+            {
+                display: inline-block;
+                margin-left: 80px;
+                cursor: default;
+                font-size: 20px;
+            }
+            a
+            {
+                display: inline-block;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="div">
+                <h1>Sign Up</h1>
+        <form>
+            <label>
+                FirstName 
+                <br>
+                <input type="text" placeholder="  Enter First Name " required> 
+            </label>
+            <br>
+            <label>
+                LastName 
+                <br>
+                <input type="text" placeholder="  Enter Last Name "required> 
+            </label>
+            <br>
+            <label for="">
+                Gender   
+            </label>
+            <select id="gender" class="box">
+                <option>select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </select>
+            <br>
+            <label>
+                EmailId
+                <br>
+                <input type="email" placeholder="  Email ID "required> 
+            </label>
+            <br>
+            <label>
+                Create Password
+                <br>
+                <input type="password" placeholder="  New Password" required>
+            </label>
+            <br>
+            <label>
+                Confirm Password
+                <br>
+                <input type="password" placeholder="  Confirm Password" required>
+            </label>
+            <br>
+            <br>
+            <button class="button">Sign Up</button>
+            <br>
+            <p>Already have an Account?</p>
+            <a href="./buttonlogin.html">Login</a>
+    </form>
+</div>
+</section>
+    </body>
+</html>
